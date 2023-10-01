@@ -1,0 +1,48 @@
+# Ignore compiled Python files
+__pycache__/
+*.pyc
+
+# Ignore virtual environment directories
+venv/
+env/
+.venv/
+
+# Ignore environment variables
+.env
+
+# Ignore database files
+db.sqlite3
+
+# Ignore secret settings files
+*.secret_key
+*.settings
+
+# Ignore Node.js dependencies
+node_modules/
+
+# Ignore build artifacts for React
+build/
+public/
+
+# Ignore environment files for React (e.g., .env)
+.env*
+
+# Ignore editor-specific files
+.vscode/
+.idea/
+
+# Ignore logs and database dumps
+*.log
+*.db
+
+# Ignore static files (you may need to adjust this depending on your setup)
+static/
+
+# Ignore package-lock.json for npm
+package-lock.json
+
+# Ignore local development settings (e.g., development settings files)
+*.local
+
+# Ignore macOS system files
+.DS_Store
